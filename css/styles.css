@@ -1,3 +1,8 @@
+.container {
+  color: #000;
+  border-radius: 20px 0px;
+}
+
 /* Your Website Styles */
 
 /*Used www.designcouch.com/home/why/2013/11/01/responsive-css3-lightbox-with-no-javascript/*/
