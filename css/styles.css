@@ -80,6 +80,129 @@ body:target dl dd {
 }
 
 
+/*  Body  */
+
+body {
+  font-family: 'Poiret One', cursive;
+  }
+
+
+/*  Selected Element  */
+
+#selected {
+  color: #3388dd;
+  text-decoration: none;
+}
+
+#main {
+  color: #3388dd;
+  text-decoration: none;
+}
+
+
+/*  Image Editing  */
+
+.me {
+  border-radius: 50%;
+  background: #000;
+  margin: 50px 415px -19px;
+  padding: 7px;
+
+}
+
+/*  Heading  */
+
+h1 {
+  font-family: 'Megrim', cursive;
+  font-size: 3em;
+  text-align: center;
+  color: #3388dd;
+  background: #000;
+  padding: 18px 0;
+  margin: -15px 0;
+}
+
+h2 {
+  text-align: center;
+  font-size: 1.6em;
+  color: #fff;
+  background: #000;
+  padding: 7px 0;
+  margin: 13px 0px 12px;
+}
+
+
+
+/*  Nav  */
+
+
+ul.nav {
+  font-size: 1.50em;
+  margin: -138px auto;
+  padding: 120px 0px;
+  list-style: none;
+  display: block;
+  text-align: center;
+}
+
+ul.nav li{
+  display: inline-block;
+  margin: 0 10px;
+  padding: 20px;
+}
+
+ul.nav li a {
+  color: #000;
+  display: block;
+  text-decoration: none;
+}
+
+ul li a:hover, ul li a:focus {
+ color: #3388dd;
+}
+
+/*  Links  */
+
+
+
+ul.nav a:link {
+  color: #000;
+}
+
+ul.nav a:visited {
+  color: #000;
+}
+
+ul.nav a:hover {
+  color: #3388dd;
+}
+
+ul.nav a:active {
+  color: #3388dd;
+}
+
+/* Social Media */
+
+
+/*  Footer  */
+
+#copyright {
+  text-align: center;
+  margin: 0;
+  padding: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
