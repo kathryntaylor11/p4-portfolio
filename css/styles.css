@@ -23,7 +23,7 @@ body {
 }
 
 dl { 
-  float: left; 
+  float: center; 
 }
 
 dd a { 
@@ -187,7 +187,7 @@ ul.nav a:active {
 
 #copyright {
   text-align: center;
-  margin: 0;
+  margin-bottom: 100%;
   padding: 100px;
 }
 
