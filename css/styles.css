@@ -3,85 +3,6 @@
   border-radius: 20px 0px;
 }
 
-/* Your Website Styles */
-
-/*Used www.designcouch.com/home/why/2013/11/01/responsive-css3-lightbox-with-no-javascript/*/
-
-/*Gallery Code forked from http://codepen.io/dudleystorey/pen/izJkB/*/
-
-@keyframes photopresent { 
-  0% { width: 0;  height: 0; opacity: 0;  }
-  30% { width: 640px; height: 0; opacity: 0;  }
-  100% { width: 700px; height: 1120px; opacity: 1; margin: 20px; }
-}
-
-html { 
-  min-height: 100%; 
-  position: relative; 
-}
-
-body { 
-  margin: 0; 
-  height: 100%; 
-  margin-right: 2em;  
-  background: #fff; 
-}
-
-dl { 
-  float: center; 
-}
-
-dd a { 
-  background: #fff; 
-  display: inline-block;
-  transition: 4s box-shadow ease-in;
-}
-
-dt { 
-  margin-left: 1.2rem; 
-  width: 150px; 
-  margin-top: 1.2rem;  
-}
-
-dt img { 
-  width: 150px; 
-  height: 150px; 
-}
-
-dd a img { 
-  width: 640px; 
-  height: 427px;  
-}
-
-dd { 
-  margin-left: 0; background: rgba(0,0,0,0); 
-  position: absolute; top: 0; bottom: 0;
-  width: 100%; height: 100%;
-  z-index: 2;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  visibility: hidden; 
-}
-
-dd:target {
-  visibility: visible;
-  background: rgba(0,0,0,0.6);
-  transition: .35s background linear;
-}
-
-dd:target a { 
-  box-shadow: 0 0 8px 8px rgba(0,0,0,0.3); 
-}
-
-dd:target a img { 
-  animation: photopresent 3s forwards;
-}
-
-body:target dl dd { 
-  background: rgba(0,0,0,0); 
-  transition: 1.5s background ease-out; 
-}
 
 
 /*  Body  */
@@ -190,36 +111,108 @@ ul.nav a:active {
 
 /*  Footer  */
 
-#copyright {
+footer {
+    position : absolute;
+    bottom : -20px;
+    height : 40px;
+    margin-top : 40px;
+}
+
+#copyright p{
   text-align: center;
-  margin-bottom: 100%;
-  padding: 100px;
+  margin-left: 500px;
+}
+
+
+/* Your Website Styles */
+
+/*Used www.designcouch.com/home/why/2013/11/01/responsive-css3-lightbox-with-no-javascript/*/
+
+/*Gallery Code forked from http://codepen.io/dudleystorey/pen/izJkB/*/
+
+@keyframes photopresent { 
+  0% { width: 0;  height: 0; opacity: 0;  }
+  30% { width: 450px; height: 0; opacity: 0;  }
+  100% { width: 450px; height: 560px; opacity: 1; margin: 20px; }
+}
+
+html { 
+  min-height: 100%; 
+  position: relative; 
+}
+
+body { 
+  margin: 0; 
+  height: 100%; 
+  margin-right: 2em;  
+  background: #fff; 
+}
+
+#gallery { 
+  float: left; 
+}
+
+#gallery a { 
+  background: #fff; 
+  display: inline-block;
+  transition: 4s box-shadow ease-in;
+}
+
+#gallery { 
+  margin-left: 1.2rem; 
+  width: 150px; 
+  margin-top: 1.2rem;  
+}
+
+#gallery img { 
+  width: 150px; 
+  height: 150px; 
+  display: inline-block;
+}
+
+#gallery a img { 
+  width: 50%; 
+  height: 50%;  
+}
+
+#gallery div { 
+  margin-left: 0; background: rgba(0,0,0,0); 
+  position: absolute; top: 0; bottom: 0;
+  width: 100%; height: 100%;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  visibility: hidden; 
+}
+
+#gallery div:target {
+  visibility: visible;
+  background: rgba(0,0,0,0.6);
+  transition: .35s background linear;
+}
+
+#gallery div:target a { 
+  box-shadow: 0 0 8px 8px rgba(0,0,0,0.3); 
+}
+
+#gallery div:target a img { 
+  animation: photopresent 3s forwards;
+}
+
+body:target #gallery div { 
+  background: rgba(0,0,0,0); 
+  transition: 1.5s background ease-out; 
 }
 
 
 
+/* Images */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.gallery {
+  background-color: #fff;
+  border-radius: 20px 0px;
+}
 
 
 
